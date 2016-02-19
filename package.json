@@ -1,29 +1,25 @@
 {
-  "name": "hubot-business-cat",
-  "version": "1.5.0",
-  "description": "Hubot script that displays `business cat` images",
+  "name": "hubot-emma-stone",
+  "version": "1.0.0",
+  "description": "Hubot script that displays `emma stone` images",
   "main": "index.coffee",
-  "author": "Morgan Wigmanich <okize123@gmail.com> (https://github.com/okize)",
   "keywords": [
     "hubot",
-    "hubot-scripts",
-    "business",
-    "jargon",
-    "cat"
+    "hubot-scripts"
   ],
-  "license": "MIT",
+  "license": "LOL",
   "scripts": {
     "test": "script/test || true",
     "start": "nodemon ./example/server.coffee",
     "debug": "coffee --nodejs --debug node_modules/.bin/hubot -r ./src"
   },
-  "homepage": "https://github.com/hubot-scripts/hubot-business-cat/",
+  "homepage": "https://github.com/alaroche/hubot-emma-stone/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hubot-scripts/hubot-business-cat.git"
+    "url": "https://github.com/alaroche/hubot-emma-stone.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-business-cat/issues"
+    "url": "https://github.com/alaroche/hubot-emma-stone/issues"
   },
   "dependencies": {
     "coffee-script": "^1.9.0"

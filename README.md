@@ -1,33 +1,19 @@
-[![NPM version](http://img.shields.io/npm/v/hubot-business-cat.svg?style=flat)](https://www.npmjs.org/package/hubot-business-cat)
-[![Build Status](http://img.shields.io/travis/hubot-scripts/hubot-business-cat.svg?style=flat)](https://travis-ci.org/hubot-scripts/hubot-business-cat)
-[![Dependency Status](http://img.shields.io/david/hubot-scripts/hubot-business-cat.svg?style=flat)](https://david-dm.org/hubot-scripts/hubot-business-cat)
-[![Downloads](http://img.shields.io/npm/dm/hubot-business-cat.svg?style=flat)](https://www.npmjs.org/package/hubot-business-cat)
+# Hubot: Emma Stone
 
-# Hubot: Business Cat
+Emma Stone is summoned to your pleasant surprise
 
-Business cat is summoned when business jargon is used
-
-![It's business time!](https://raw.github.com/hubot-scripts/hubot-business-cat/gh-pages/animated-business-cat.gif)
+![O Hai](http://41.media.tumblr.com/9ca790673467076cb52e1d63dc9e2aef/tumblr_moyks1WueE1s88ss5o1_1280.jpg)
 
 ## Installation
 
 Run the following command to install this module as a Hubot dependency
 
 ```
-$ npm install hubot-business-cat --save
+$ npm install hubot-emma-stone --save
 ```
 
-Add the **hubot-business-cat** to your `external-scripts.json` (you may need to create this file).
+Add the **hubot-emma-stone** to your `external-scripts.json` (you may need to create this file).
 
 ```
-["hubot-business-cat"]
-```
-
-## Configuration
-
-If you would like business jargon triggers that are not in the plugin, [pull requests](https://github.com/hubot-scripts/hubot-business-cat/pulls) are welcome. Additionally, the environment variables HUBOT_BUSINESS_CAT_JARGON and HUBOT_BUSINESS_CAT_OMITTED_JARGON can be used with a comma-separated list to extend or reduce the triggers, like so:
-
-```
-HUBOT_BUSINESS_CAT_JARGON='more,jargon,ideat(e|ion)'
-HUBOT_BUSINESS_CAT_OMITTED_JARGON='in the loop,takeaway'
+["hubot-emma-stone"]
 ```
