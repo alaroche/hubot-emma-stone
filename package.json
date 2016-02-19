@@ -1,6 +1,6 @@
 {
   "name": "hubot-emma-stone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hubot script that displays `emma stone` images",
   "main": "index.coffee",
   "keywords": [
