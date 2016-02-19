@@ -4,13 +4,13 @@ chai.use require 'sinon-chai'
 
 expect = chai.expect
 
-describe 'hubot-business-cat', ->
+describe 'hubot-emma-stone', ->
   beforeEach ->
     @robot =
       respond: sinon.spy()
       hear: sinon.spy()
 
-    require('../src/businesscat')(@robot)
+    require('../src/emmastone')(@robot)
 
   it 'does register a hear listener', ->
     expect(@robot.hear).to.have.been.calledWithMatch sinon.match( (val) ->
